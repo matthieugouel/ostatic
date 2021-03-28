@@ -11,6 +11,7 @@ aiofiles = "^0.6.0"
 starlette = "^0.14.2"
 httpx = "^0.17.1"
 pydantic = "^1.8.1"
+python-jose = {extras = ["cryptography"], version = "^3.2.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
